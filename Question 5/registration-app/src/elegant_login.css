@@ -1,0 +1,1096 @@
+@charset "utf-8";
+body {
+    background: url("images/login_bkgd.jpg") center top no-repeat #d2d2d2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4D4F53;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0 0 15px 0;
+    color: #4D4F53;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+a,
+a:active,
+a:visited {
+    color: #2261B5;
+    outline-style: none;
+    outline-width: medium;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0 0 15px 0;
+    color: #4D4F53;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+a,
+a:active,
+a:visited {
+    color: #2261B5;
+    outline-style: none;
+    outline-width: medium;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+td {
+    font-size: 13px;
+}
+
+.container {
+    margin: 25px auto 0;
+    width: 350px;
+}
+
+.containerWide {
+    margin: 25px auto 0;
+    width: 680px;
+}
+
+.centerContent {
+    background: url("images/loginTop.png") center top repeat-x #fff;
+    border: 1px solid #BCBEC0;
+    border-radius: 8px;
+    box-shadow: -1px 0 7px #BCBEC0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: -1px 0 7px #BCBEC0;
+    -webkit-border-radius: 8px;
+    -webkit-box-shadow: -1px 0 7px #BCBEC0;
+}
+
+#loginHeader {
+    height: 90px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.loginLogoPrivacy {
+    background-image: url("images/sprite_new.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 65px;
+    margin: 5px 0 0 20px;
+    width: 180px;
+}
+
+#feedback {
+    float: left;
+}
+
+.feedback ul {
+    padding: 2px;
+    border: 2px solid #ffed9c;
+    background: #fff0ac;
+    color: #C00;
+    padding-left: 0;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.feedback li {
+    padding: 2px 12px 2px 12px;
+    list-style-type: none;
+    color: #C00;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#elegantPanel {
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.loginContent {
+    padding: 0 25px 15px;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.showPassword {
+    font-size: 12px;
+    color: #666;
+}
+
+.showPasswordCheckbox {
+    width: 15px;
+    margin: 0 0 0 1px;
+}
+
+.privacyContent {
+    padding: 15px 25px;
+}
+
+.buttons {
+    margin-top: 25px;
+    width: 295px;
+}
+
+.arrgh {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 140px;
+}
+
+#loginData {
+    width: 600px;
+}
+
+.loginLogoPrivacy {
+    background-image: url("images/sprite_new.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 65px;
+    margin: 5px 0 0 20px;
+    width: 180px;
+}
+
+#coreText {
+    font-size: 11px;
+    padding: 5px 0;
+    color: #666;
+}
+
+.logoFooter {
+    padding-top: 55px;
+    text-align: center;
+}
+
+input {
+    font-size: 18px;
+    padding: 3px;
+    width: 285px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+label {
+    padding-bottom: 4px;
+    font-size: 16px;
+}
+
+.privacyButtons {
+    margin-top: 10px;
+    float: right;
+    width: 500px;
+    padding: 10px 0 20px 20px;
+}
+
+.answer {
+    width: 270px;
+    margin-bottom: 0;
+}
+
+.enterUserIdContent {
+    padding: 0 15px 49px 25px;
+}
+
+.securityQuestionsContent {
+    padding: 0 15px 35px 25px;
+}
+
+.updateEmailOverlayContent {
+    padding: 0 15px 35px 25px;
+}
+
+.blockContent {
+    display: block;
+}
+
+.loginButton {
+    width: 120px;
+    float: right;
+}
+
+.enterUserIdButton {
+    width: 100px;
+}
+
+.loginPassword {
+    margin-bottom: 5px;
+}
+
+.passwordCriteria {
+    color: #666;
+    font-size: 12px;
+}
+
+.savePassword {
+    width: 160px;
+}
+
+.dontShowMeThisAnyMoreLinkOnNoEmailOverlay {
+    font-size: 13px;
+    float: left;
+    margin-top: 17px;
+    font-weight: bold;
+    width: 130px;
+}
+
+.dontShowMeThisAnyMoreLinkOnUpdateEmailOverlay {
+    font-size: 13px;
+    float: left;
+    margin-top: 17px;
+    font-weight: bold;
+    width: 130px;
+}
+
+.loginFooter {
+    text-align: right;
+    padding: 6px 15px 8px 4px;
+    font-size: 12px;
+    border-top: 1px dotted #b5b5b5;
+    float: left;
+    width: 330px;
+}
+
+#passwordComply {
+    display: none;
+    background: #FFF;
+    width: 265px;
+    border: 1px solid #b6b6b6;
+    padding: 15px 15px 0 15px;
+    z-index: 100;
+    position: absolute;
+    left: 320px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: -1px 0 7px #ccc;
+    -webkit-box-shadow: -1px px 7px #ccc;
+    box-shadow: -1px 0 7px #ccc;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3,Direction=135,Color='#ccc')";
+    filter: progid: DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#ccc');
+}
+
+#password_complies li {
+    list-style: none;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+    padding-left: 20px;
+}
+
+li.complies {
+    background: url("images/sprite_new.png");
+    background-position: 0 -68px;
+    color: #29a232;
+}
+
+li.defies {
+    background: url("images/sprite_new.png");
+    background-position: 0 -87px;
+    color: #878787;
+}
+
+#createNewPassword input {
+    font-size: 18px;
+}
+
+.savedInfo {
+    padding: 3px;
+    background: #cef291 url("images/sprite_new.png");
+    background-position: 0 -224px;
+    padding-left: 38px;
+    background-repeat: no-repeat;
+    height: 24px;
+}
+
+#greenCheck {
+    float: left;
+    margin-top: -9px;
+    margin-right: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.hidden {
+    display: none;
+}
+
+.userEmail {
+    width: 270px;
+    margin-bottom: 2px;
+}
+
+.regularButton {
+    width: 100px;
+}
+
+.agreementButton {
+    width: 160px;
+    clear: none;
+}
+
+.resetPasswordForm {
+    display: block;
+    position: relative;
+}
+
+.passwordField {
+    width: 270px;
+    margin-bottom: 3px;
+}
+
+.savePasswordButton {
+    width: 160px;
+}
+
+.spamFilterNote {
+    font-size: 12px;
+}
+
+#target {
+    border-style: inset;
+    border-width: 2px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+}
+
+#target p,
+#target li {
+    font-size: 12px;
+}
+
+.alertHeading {
+    background: none repeat scroll 0 0 #D9D9D6;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 10px;
+    width: 610px;
+}
+
+.alertButtons {
+    float: right;
+    padding: 0 0 25px 20px;
+    width: 198px;
+}
+
+.infoSaved {
+    background: url("images/sprite_new.png") no-repeat scroll 0 -109px transparent;
+    padding: 10px 0 10px 32px;
+}
+
+#forgotUserIdLink {
+    font-size: 12px;
+}
+
+#footer {
+    bottom: 0;
+}
+
+/* .btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #e8ebeb;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+.btn.disabled,
+.btn[disabled] {
+    cursor: default;
+    background-image: none;
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: .65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #cdd3d3;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #adadad;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position .1s linear;
+    -moz-transition: background-position .1s linear;
+    -o-transition: background-position .1s linear;
+    transition: background-position .1s linear;
+}
+
+.btn-warning {
+    background-color: #2261b5;
+    border-color: #1e55a0;
+    background-image: -moz-linear-gradient(center top, #2261b5, #2261b5);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-warning:hover,
+.btn-warning:focus {
+    background-color: #004c88;
+    background-image: none;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position .1s linear;
+    -moz-transition: background-position .1s linear;
+    -o-transition: background-position .1s linear;
+    transition: background-position .1s linear;
+} */
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+td {
+    font-size: 13px;
+}
+
+.container {
+    margin: 125px auto 0;
+    width: 350px;
+}
+
+.containerWide {
+    margin: 25px auto 0;
+    width: 680px;
+}
+
+.containerChangePwd {
+    margin: 30px 400px 0 0;
+    width: 350px;
+}
+
+.centerContent {
+    background: url("images/loginTop.png") center top repeat-x #fff;
+    border: 1px solid #BCBEC0;
+    border-radius: 8px;
+    box-shadow: -1px 0 7px #4D4F53;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: -1px 0 7px #4D4F53;
+    -webkit-border-radius: 8px;
+    -webkit-box-shadow: -1px 0 7px #4D4F53;
+}
+
+#loginHeader {
+    height: 90px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.loginLogoPrivacy {
+    background-image: url("images/sprite_new.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 65px;
+    margin: 5px 0 0 20px;
+    width: 180px;
+}
+
+#feedback {
+    float: left;
+}
+
+.feedback ul {
+    padding: 2px;
+    border: 2px solid #ffed9c;
+    background: #fff0ac;
+    color: #C00;
+    padding-left: 0;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.feedback li {
+    padding: 2px 12px 2px 12px;
+    list-style-type: none;
+    color: #C00;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#elegantPanel {
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.loginContent {
+    padding: 0 25px 15px;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.showPassword {
+    font-size: 12px;
+    color: #666;
+}
+
+.showPasswordCheckbox {
+    width: 15px;
+    margin: 0 0 0 1px;
+}
+
+.privacyContent {
+    padding: 15px 25px;
+}
+
+.alertBox {
+    border: 1px solid #D9D9D6;
+    float: left;
+    padding: 0;
+    width: 630px;
+    margin: 0 0 10px 0;
+}
+
+.alertBox p {
+    font-size: 13px;
+    min-height: 50px;
+    padding: 0 10px 0 52px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 25px;
+    width: 295px;
+    text-align: right;
+    float: left;
+}
+
+.arrgh {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 140px;
+    text-align: left;
+}
+
+.forgotPasswordOrUserId {
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 160px;
+    text-align: left;
+}
+
+#loginData {
+    width: 600px;
+}
+
+.loginLogoPrivacy {
+    background-image: url("images/sprite_new.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 65px;
+    margin: 5px 0 0 20px;
+    width: 180px;
+}
+
+#coreText {
+    font-size: 11px;
+    padding: 5px 0;
+    color: #666;
+}
+
+.logoFooter {
+    padding-top: 55px;
+    text-align: center;
+}
+
+input {
+    font-size: 18px;
+    padding: 3px;
+    width: 285px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+label {
+    padding-bottom: 4px;
+    font-size: 16px;
+}
+
+.privacyButtons {
+    margin-top: 10px;
+    float: right;
+    width: 500px;
+    padding: 10px 0 20px 20px;
+}
+
+.answer {
+    width: 270px;
+    margin-bottom: 0;
+}
+
+.enterUserIdContent {
+    padding: 0 15px 49px 25px;
+}
+
+.securityQuestionsContent {
+    padding: 0 15px 35px 25px;
+}
+
+.updateEmailOverlayContent {
+    padding: 0 15px 35px 25px;
+}
+
+.blockContent {
+    display: block;
+}
+
+.loginButton {
+    width: 120px;
+    float: right;
+}
+
+.enterUserIdButton {
+    width: 100px;
+}
+
+.loginPassword {
+    margin-bottom: 5px;
+}
+
+.passwordCriteria {
+    color: #666;
+    font-size: 12px;
+}
+
+.savePassword {
+    width: 160px;
+}
+
+.dontShowMeThisAnyMoreLinkOnNoEmailOverlay {
+    font-size: 13px;
+    float: left;
+    margin-top: 17px;
+    font-weight: bold;
+    width: 130px;
+}
+
+.dontShowMeThisAnyMoreLinkOnUpdateEmailOverlay {
+    font-size: 13px;
+    float: left;
+    margin-top: 17px;
+    font-weight: bold;
+    width: 130px;
+}
+
+.loginFooter {
+    text-align: right;
+    padding: 6px 15px 8px 4px;
+    font-size: 12px;
+    border-top: 1px dotted #b5b5b5;
+    float: left;
+    width: 330px;
+}
+
+#passwordComply {
+    display: none;
+    background: #FFF;
+    width: 265px;
+    border: 1px solid #b6b6b6;
+    padding: 15px 15px 0 15px;
+    z-index: 100;
+    position: absolute;
+    left: 320px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: -1px 0 7px #ccc;
+    -webkit-box-shadow: -1px px 7px #ccc;
+    box-shadow: -1px 0 7px #ccc;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3,Direction=135,Color='#ccc')";
+    filter: progid: DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#ccc');
+}
+
+#password_complies li {
+    list-style: none;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+    padding-left: 20px;
+}
+
+li.complies {
+    background: url("images/sprite_new.png");
+    background-position: 0 -68px;
+    color: #29a232;
+}
+
+li.defies {
+    background: url("images/sprite_new.png");
+    background-position: 0 -87px;
+    color: #878787;
+}
+
+#createNewPassword input {
+    font-size: 18px;
+}
+
+.savedInfo {
+    padding: 3px;
+    background: #cef291 url("images/sprite_new.png");
+    background-position: 0 -224px;
+    padding-left: 38px;
+    background-repeat: no-repeat;
+    height: 24px;
+}
+
+#greenCheck {
+    float: left;
+    margin-top: -9px;
+    margin-right: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.hidden {
+    display: none;
+}
+
+.userEmail {
+    width: 270px;
+    margin-bottom: 2px;
+}
+
+.regularButton {
+    width: 100px;
+}
+
+.agreementButton {
+    width: 160px;
+    clear: none;
+}
+
+.resetPasswordForm {
+    display: block;
+    position: relative;
+}
+
+.passwordField {
+    width: 270px;
+    margin-bottom: 3px;
+}
+
+.savePasswordButton {
+    width: 160px;
+}
+
+.spamFilterNote {
+    font-size: 12px;
+}
+
+#target {
+    border-style: inset;
+    border-width: 2px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+}
+
+#target p,
+#target li {
+    font-size: 12px;
+}
+
+.alertHeading {
+    background: none repeat scroll 0 0 #D9D9D6;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 10px;
+    width: 610px;
+}
+
+.alertButtons {
+    float: right;
+    padding: 0 0 25px 20px;
+    width: 198px;
+}
+
+.infoSaved {
+    background: url("images/sprite_new.png") no-repeat scroll 0 -109px transparent;
+    padding: 10px 0 10px 32px;
+}
+
+#forgotUserIdLink {
+    font-size: 12px;
+}
+
+#footer {
+    bottom: 0;
+}
+
+/* .btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #e8ebeb;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #ccc;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+.btn.disabled,
+.btn[disabled] {
+    cursor: default;
+    background-image: none;
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: .65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #cdd3d3;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #adadad;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position .1s linear;
+    -moz-transition: background-position .1s linear;
+    -o-transition: background-position .1s linear;
+    transition: background-position .1s linear;
+}
+
+.btn-warning {
+    background-color: #2261b5;
+    border-color: #1e55a0;
+    background-image: -moz-linear-gradient(center top, #2261b5, #2261b5);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-warning:hover,
+.btn-warning:focus {
+    background-color: #004c88;
+    background-image: none;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position .1s linear;
+    -moz-transition: background-position .1s linear;
+    -o-transition: background-position .1s linear;
+    transition: background-position .1s linear;
+} */
+
+h3 {
+    clear: both;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #8b8d8e;
+    color: #8b8d8e;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.loginLink {
+    text-align: right;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.ui-dialog-osx {
+    -moz-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    background-image: none;
+}
+
+.ieButtonsCenter {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.upgrade {
+    width: 300px;
+    height: 35px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 2em;
+    color: #fff;
+    background-color: #0f75bc;
+    margin: 0 0 10px 0;
+}
+
+.notnow {
+    margin: 0 0 10px 0;
+    width: 200px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.ui-widget #upgradeButton {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.ui-widget #upgradeNowButton {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.ui-widget #turnIECompatOff {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.ui-widget #notNowButton {
+    font-family: Arial;
+    font-size: 11px;
+}
+
+.ui-widget #doLaterButton {
+    font-family: Arial;
+    font-size: 11px;
+}
+
+#cancelEmailButton {
+    background-position: 0 -30px;
+    -webkit-transition: background-position .0s linear;
+    -moz-transition: background-position .0s linear;
+    -o-transition: background-position .0s linear;
+    transition: background-position .0s linear;
+}
+
+.phi-warning-container {
+    background-color: #ffda00;
+    color: ##4d4f53;
+    padding: 5px 15px;
+    border: 1px solid #e8ebeb;
+}
+
+.phi-warning-sub-container {
+    display: table;
+    width: 100%;
+}
+
+.phi-warning-content {
+    display: table-cell;
+    height: 80px;
+    vertical-align: middle;
+}
+
+.emergency {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.tableCell {
+    display: table-cell;
+    vertical-align: middle;
+}
