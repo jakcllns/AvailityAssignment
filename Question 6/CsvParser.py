@@ -15,7 +15,6 @@ def GetCsvFile():
 def Main():
     csvData = GetCsvFile()
     reader = csv.reader(csvData, 'excel')
-    index = 0
     headers = reader.__next__()
     companies = CompanyPortfolio(headers)
 
@@ -23,6 +22,9 @@ def Main():
         companies.addRecord(row)
 
     companies.sortCompaniesByLastNames()
+
+    if os.path.exists(BASE_DIR + '\\OutputFiles') == False:
+        os.mkdir(BASE_DIR + '\\OutputFiles')
 
     for key in companies.portfolio:
         with open(BASE_DIR + '\\OutputFiles\\' + key + '.csv', 'w') as companyFile:
